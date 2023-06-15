@@ -19,7 +19,7 @@ export const addNoteController = async (req, res) => {
 
 export const getAllNotes = async (req, res) => {
 
-    try {
+    try { 
 
         const userId = req.user._id
         console.log(userId)
