@@ -1,0 +1,27 @@
+.pnf {
+    height: 100vh;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pnf-btn {
+    margin-top: 25px;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    /* background-color: rgb(150, 178, 202); */
+    background-color: transparent;
+    /* color: #DEF4FE; */
+    color: #fff;
+    font-family: "Poppins";
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.pnf-heading span{
+    color: rgb(194, 20, 20);
+}

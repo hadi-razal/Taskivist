@@ -1,0 +1,44 @@
+.container {
+    padding: 150px 200px;
+    /* color: #DEF4FE; */
+    color: #fff;
+}
+
+.container h1 span {
+    color: #546bef;
+
+}
+
+.container h1 {
+    text-align: center;
+
+}
+
+.container p {
+    line-height: 20px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.get-start-btn {
+    margin-top: 25px;
+    border: 3px  solid white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    /* background-color: rgb(150, 178, 202); */
+    background-color: transparent;
+    /* color: #DEF4FE; */
+    color: #fff;
+    font-family: "Poppins";
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.register-now-btn:hover {
+    opacity: 0.5;
+}

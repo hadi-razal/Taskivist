@@ -1,0 +1,47 @@
+.pricing-container {
+
+    color: #fff;
+    /* background: white; */
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 300px;
+
+}
+
+.price-card {
+    min-height: 300px;
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.price-card-items {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 10px;
+
+}
+
+.price-card-items p {
+    font-size: small;
+    word-wrap: break-word
+}
+
+.price-card button {
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-family: Poppins;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.price-card button:hover {
+    opacity: 0.3;
+}
