@@ -14,12 +14,17 @@ export const addNoteController = async (req, res) => {
         })
     } catch (error) {
         console.log(error)
+        res.send({
+            success: false,
+            message: "Error In Get all note controlller",
+            error
+        })
     }
 }
 
 export const getAllNotes = async (req, res) => {
 
-    try { 
+    try {
 
         const userId = req.user._id
         console.log(userId)
@@ -31,6 +36,11 @@ export const getAllNotes = async (req, res) => {
         })
     } catch (error) {
         console.log(error)
+        res.send({
+            success: false,
+            message: "Error In Get all note controlller",
+            error
+        })
     }
 
 }
